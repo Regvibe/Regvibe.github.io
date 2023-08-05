@@ -9,7 +9,7 @@
 	sposition: relative; 
 	margin-left: 37%; 
 	margin-top: 21%; 
-	transform: rotate(90deg);
+	transform: rotate(-90deg);
 }
 
 .arrow-bottom {
