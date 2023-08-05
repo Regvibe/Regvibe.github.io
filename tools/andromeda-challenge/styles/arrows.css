@@ -1,0 +1,20 @@
+.arrow-top {
+	position: relative; 
+	margin-left: 20%; 
+	margin-top: 8%; 
+	transform: rotate(135deg);
+}
+
+.arrow-middle {
+	sposition: relative; 
+	margin-left: 37%; 
+	margin-top: 21%; 
+	transform: rotate(90deg);
+}
+
+.arrow-bottom {
+	position: relative; 
+	margin-left: 20%; 
+	margin-top: 32%; 
+	transform: rotate(45deg);
+}
