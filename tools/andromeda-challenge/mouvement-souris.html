@@ -103,17 +103,19 @@
 		
 		</div>
 		
-		<div style="position: absolute" oncontextmenu="return false">
+		<div oncontextmenu="return false;">
+		<div style="position: absolute">
 			<img src="images/arrow.png" width="15%" height="15%" style="position: relative; margin-left: 20%; margin-top: 8%; transform: rotate(135deg);"/>
 		</div>
-		<div style="position: absolute" oncontextmenu="return false">
+		<div style="position: absolute">
 			<img src="images/arrow.png" width="14%" height="14%" style="position: relative; margin-left: 37%; margin-top: 21%; transform: rotate(90deg);"/>
 		</div>
-		<div style="position: absolute" oncontextmenu="return false">
+		<div style="position: absolute">
 			<img src="images/arrow.png" width="15%" height="15%" style="position: relative; margin-left: 20%; margin-top: 32%; transform: rotate(45deg);"/>
 		</div>
+		</div>
         
-        <div oncontextmenu="return false"> 
+        <div oncontextmenu="return false" style="position: absolute"> 
             <svg style="margin-left:50px; position : relative; top:200px" width="200" height="200" onmouseover="javascript:compter_C()" onmouseout="javascript:sorti_C()">
             <rect width="200" height="200" style="fill: black" />
             <text x="15" y="50%" fill="white">Passer la souris dessus</text>
@@ -139,10 +141,11 @@
         <p>Passages sur B : <label id="compteur_B">0</label></p>
         <p>Passages sur C : <label id="compteur_C">0</label></p>
         !-->
-        
+        <div style="margin-left: 5%">
         <p>Moyenne : <label id="moyenne">0</label></p>
 		<p>Meilleur : <label id="meilleur">0</label></p>
-        
+        <!div>
+		
         
     </body>
 </html>
