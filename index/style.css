@@ -18,8 +18,8 @@ body {
 
 .profile {
     position: absolute;
-    top: 23%;
-    left: 18%;
+    top: 230px;
+    left: 300px;
     transform: translate(-50%, -50%);
     z-index: 1;
 	width: 300px;
@@ -27,6 +27,8 @@ body {
 	border-radius: 50%;
 	border: 8px solid #1a0e21;
 	box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+	max-width: 100%; /* Set the maximum width of the image */
+	max-height: 100%;
 }
 
 .navbar {
