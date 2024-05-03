@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+	
+	background-color: #413f42;
 }
 
 .header {
@@ -9,86 +11,132 @@ body {
     height: 450px;
 	overflow: hidden;
     background-color: #1a0e21;
+
 }
 
 .banner {
 	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 52%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
+.username {
+	font-family: "Eras Bold ITC";
+	color: white;
+	font-size: 120px;
+	position: absolute;
+	top: 25%;
+	left: 52%;
+	transform: translate(-50%, -50%);
+}
+
+.mail-container {
+	color: white;
+	font-size: 30px;
+	position: relative;
+	float: right;
+	transform: translate(-10%, -90%);
+}
+
+.mail {
+	background-color: rgba(0, 0, 0, 0.3);
+}
 
 .profile {
-    position: absolute;
-    top: 230px;
-    left: 300px;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-	width: 300px;
-    height: 300px;
+    top: 172px;
+    transform: translate(150%, -105%);
+    height: 200px;
 	border-radius: 50%;
-	border: 8px solid #1a0e21;
+	border: 6px solid #1a0e21;
 	box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
-	max-width: 100%;
-	max-height: 100%;
 }
 
 .page {
 	position: relative;
 	z-index: 5;
+	
+	
 }
 
 .navbar {
 	position: relative;
-	top: 450px;
+	display: block;
+	top: 235px;
 	background-color: #38102f;
 	border-top: 5px solid #1a0e21;
 	border-bottom: 5px solid #1a0e21;
-}
-
-.socials {
-	list-style-type: none;
-	margin: 0;
-	padding: 10;
-	overflow: hidden;
-}
-
-li {
-	float: left;
-	height: 300px;
-}
-
-li a {
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.socials-spacing {
+	position: relative;
+	padding-left: 100px;
+	float: inline-start;
+	transform: translate(50%, 0);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	color: white;
 	text-align: center;
-	padding: 50px 50px;
 	text-decoration: none;
+	overflow: auto;
+	float: inline-start;
 }
 
-li a img {
-	width: 200px;
-    height: 200px;
+nav a img {
+	width: 150px;
 	border-radius: 20%;
 	box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
 }
-
-li a img:hover {
+nav a img:hover {
   background-color: #111;
   opacity: 0.5;
 }
+.pages-background {
+	position: relative;
+	background-color: #413f42;
+	top: 100px;
+}
 
 .first-page {
-	transform: translate(0, 450px);
+	transform: translate(0, 200px);
+	height: 50%
+}
+
+.libimg {
+	display: block;
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .description {
-	position: absolute; 
-	transform: translate(10px, -900px);
+	position: block; 
 	color: white;
 	font-size: 36px;
-	font-style: bold;
-	left: 10%;
-	right: 45%;
+	margin-left: 15%;
+	margin-right: 40%;
 	text-align: justify;
 	text-justify: inter-word;
 	text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+	transform: translate(0, -800px);
 }
+
+
